@@ -4,8 +4,7 @@
 
 import UIKit
 
-class ProfileNavigationController: UINavigationController {
-    static var sharedNetworkClient = DefaultNetworkClient()
+final class ProfileNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

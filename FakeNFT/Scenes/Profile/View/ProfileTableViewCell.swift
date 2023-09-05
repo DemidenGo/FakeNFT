@@ -26,7 +26,7 @@ final class ProfileTableViewCell: UITableViewCell, ReuseIdentifying {
 
     private func setupCell() {
         accessoryType = .disclosureIndicator
-        backgroundColor = .asset(.white)
+        backgroundColor = .viewBackgroundColor
     }
 
     private func setupConstraints() {

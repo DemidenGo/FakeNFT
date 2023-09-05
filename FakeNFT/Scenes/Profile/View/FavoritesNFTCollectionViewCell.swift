@@ -55,7 +55,7 @@ final class FavoritesNFTCollectionViewCell: UICollectionViewCell, ReuseIdentifyi
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 17, weight: .bold)
-        label.textColor = .textColorBlack
+        label.textColor = .label
         return label
     }()
 
@@ -69,7 +69,7 @@ final class FavoritesNFTCollectionViewCell: UICollectionViewCell, ReuseIdentifyi
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 15)
-        label.textColor = .textColorBlack
+        label.textColor = .label
         return label
     }()
 

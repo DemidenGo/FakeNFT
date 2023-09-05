@@ -1,14 +1,36 @@
-# ТЗ мобильного приложения FakeNFT
+# FakeNFT
+
+Приложение помогает пользователям просматривать и покупать NFT (Non-Fungible Token). По сути имитация маркетплейса, специализирующегося на NFT. Функционал покупки иммитируется с помощью мокового сервера [mockapi.io](https://mockapi.io). При разработке приложения отрабатывались навыки работы в команде. Моя зона ответственности - экран профиля. Моковый API имеет ограничение 30 запросов в минуту. Поэтому, при работе приложения возможно получить ошибку от сервера с кодом 429 (Too Many Requests), в этом случае надо немного подождать. 
+
+![AppScreenshot1](AppScreenshots/1.png) ![AppScreenshot2](AppScreenshots/2.png) ![AppScreenshot3](AppScreenshots/3.png) ![AppScreenshot4](AppScreenshots/4.png)
+
+## Применённые технологии
+
+- **Архитектура:** MVVM (без combine и React-фреймворков), SOLID, DRY, YAGNI, KISS, Object Oriented Programming (ООП), Protocol-Oriented Programming (POP), работа с делегатами и замыканиями, extensions, propertyWrapper, паттерн Key-value observing (KVO), NotificationCenter, хранилище UserDefaults
+
+- **Работа в команде:** декомпозирование задач, работа в таск-трекере, Trello, GitHub, pachca, Telegram
+
+- **UI и вёрстка:** UIKit, вёрстка кодом с AutoLayout, UITableView, UIScrollView, UICollectionView, UIStackView, анимации UIView.animate, реализация локализации и тёмной темы, Human Interface Guidelines (HIG)
+
+- **Навигация:** UITabBarController, UINavigationController
+
+- **Работа с сетью:** запросы HTTP и REST API, URLSession, URLRequest, JSONDecoder, Codable, DispatchGroup, WKWebView, URL validation
+
+- **Многопоточность:** предотвращение race condition, DispatchQueue, блокировка UI
+
+- **Тестирование:** UI-тесты и Unit-тесты (XCTest), Charles Proxy (сетевые запросы)
+
+- **Зависимости:** Swift Package Manager (SPM), Kingfisher, ProgressHUD
+
+- **Система контроля версий:** git (из командной строки), GitHub, Sourcetree, решение конфликтов в git
+
+# ТЗ мобильного приложения
 
 # Ссылки
 
 [Дизайн Figma](https://www.figma.com/file/k1LcgXHGTHIeiCv4XuPbND/FakeNFT-(YP)?node-id=96-5542&t=YdNbOI8EcqdYmDeg-0)
 
-# Назначение и цели приложения
-
-Приложение помогает пользователям просматривать и покупать NFT (Non-Fungible Token). Функционал покупки иммитируется с помощью мокового сервера.
-
-Цели приложения:
+# Цели приложения
 
 - просмотр коллекций NFT;
 - просмотр и покупка NFT (иммитируется);

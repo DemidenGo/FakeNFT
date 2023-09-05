@@ -26,7 +26,7 @@ final class ProfileViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 22, weight: .bold)
-        label.textColor = .textColorBlack
+        label.textColor = .label
         return label
     }()
 
@@ -34,7 +34,7 @@ final class ProfileViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 13)
-        label.textColor = .textColorBlack
+        label.textColor = .label
         label.numberOfLines = 0
         return label
     }()
@@ -165,7 +165,7 @@ final class ProfileViewController: UIViewController {
                                           action: #selector(editProfileButtonAction))
         navigationItem.rightBarButtonItem = rightButton
         navigationItem.backButtonTitle = ""
-        navigationController?.navigationBar.tintColor = .textColorBlack
+        navigationController?.navigationBar.tintColor = .label
     }
 
     @objc private func websiteButtonAction() {
