@@ -50,7 +50,7 @@ final class EditProfileViewController: UIViewController {
         button.imageView?.contentMode = .scaleAspectFill
         button.setTitle(L10n.changeAvatarButtonTitle, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 10, weight: .medium)
-        button.setTitleColor(.gray, for: .normal)
+        button.setTitleColor(.systemGray5, for: .normal)
         button.titleLabel?.numberOfLines = 2
         button.titleLabel?.textAlignment = .center
         button.addTarget(self, action: #selector(changeAvatarAction), for: .touchUpInside)
