@@ -95,7 +95,7 @@ final class ProfileViewModel {
             if let url = mainAvatarURL {
                 return url.absoluteString
             } else {
-                preconditionFailure("Unable to get website URL string")
+                preconditionFailure("Unable to get avatar URL string")
             }
         }
     }
