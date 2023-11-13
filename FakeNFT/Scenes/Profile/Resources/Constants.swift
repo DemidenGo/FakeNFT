@@ -8,7 +8,7 @@ import Foundation
 enum Constants {
 
     // URL strings
-    static let mockAvatarImageURLString = ""
+    static let mockAvatarImageURLString = "https://raw.githubusercontent.com/DemidenGo/FakeNFT/main/MockAvatar.png"
     static let endpointURLString = "https://64611c69491f9402f49ecce1.mockapi.io/api/v1/"
     static let profilePathComponentString = "profile/1"
     static let nftPathComponentString = "nft/%d"
